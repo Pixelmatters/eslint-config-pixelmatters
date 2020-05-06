@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-pixelmatters",
+  "name": "@pixelmatters/eslint-config-pixelmatters",
   "version": "1.0.0",
   "description": "Eslint config for usage in Pixelmatters projects",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pixelmatters/eslint-config-pixelmatters.git"
+    "url": "git://github.com/Pixelmatters/eslint-config-pixelmatters.git"
   },
   "keywords": [
     "eslint-config",
