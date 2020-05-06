@@ -1,7 +1,6 @@
 {
   "name": "eslint-config-pixelmatters",
   "version": "1.0.0",
-  "private": true,
   "description": "Eslint config for usage in Pixelmatters projects",
   "main": "index.js",
   "repository": {
@@ -23,6 +22,9 @@
   },
   "author": "Pixelmatters",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "bugs": {
     "url": "https://github.com/Pixelmatters/eslint-config-pixelmatters/issues"
   },
