@@ -1,6 +1,6 @@
 {
   "name": "@pixelmatters/eslint-config-pixelmatters",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Eslint config for usage in Pixelmatters projects",
   "main": "index.js",
   "repository": {
