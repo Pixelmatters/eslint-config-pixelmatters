@@ -23,12 +23,12 @@
     "typescript": ">= 3.8.3"
   },
   "author": "Pixelmatters",
-  "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Pixelmatters/eslint-config-pixelmatters/issues"
   },
-  "homepage": "https://github.com/Pixelmatters/eslint-config-pixelmatters#readme"
+  "homepage": "https://github.com/Pixelmatters/eslint-config-pixelmatters#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
