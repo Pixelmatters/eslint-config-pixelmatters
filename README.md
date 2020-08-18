@@ -66,19 +66,19 @@ If using NPM:
 1. Install the package as a development dependency:
 
 ```shell
-npm install @pixelmatters/eslint-config-pixelmatters --dev
+npm install @pixelmatters/eslint-config-pixelmatters --save-dev
 ```
 
 2. Add all the missing peer dependencies:
 
 ```shell
-npm install @typescript-eslint/eslint-plugin eslint-plugin-prettier --dev
+npm install @typescript-eslint/eslint-plugin eslint-plugin-prettier --save-dev
 ```
 
 (This config assumes you have **ESLint**, **Typescript** and **Prettier** already installed; if not, run the following code: )
 
 ``` shell
-npm install typescript eslint prettier --dev
+npm install typescript eslint prettier --save-dev
 ```
 
 3. Create an `.eslintrc.js`  file in the root of your project and add the following code:
