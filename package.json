@@ -24,9 +24,6 @@
   },
   "author": "Pixelmatters",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "bugs": {
     "url": "https://github.com/Pixelmatters/eslint-config-pixelmatters/issues"
   },
