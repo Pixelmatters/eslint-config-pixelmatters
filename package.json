@@ -1,8 +1,13 @@
 {
   "name": "@pixelmatters/eslint-config-pixelmatters",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Eslint config for usage in Pixelmatters projects",
-  "main": "index.js",
+  "author": "Pixelmatters",
+  "homepage": "https://github.com/Pixelmatters/eslint-config-pixelmatters#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pixelmatters/eslint-config-pixelmatters/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/Pixelmatters/eslint-config-pixelmatters.git"
@@ -11,6 +16,13 @@
     "eslint-config",
     "eslint"
   ],
+
+  "publishConfig": {
+    "access": "public"
+  },
+
+  "main": "index.js",
+
   "dependencies": {
     "@typescript-eslint/parser": ">= 2.31.0",
     "eslint-config-prettier": ">= 6.10.0"
@@ -22,13 +34,7 @@
     "prettier": ">= 2.0.5",
     "typescript": ">= 3.8.3"
   },
-  "author": "Pixelmatters",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Pixelmatters/eslint-config-pixelmatters/issues"
-  },
-  "homepage": "https://github.com/Pixelmatters/eslint-config-pixelmatters#readme",
-  "publishConfig": {
-    "access": "public"
+  "devDependencies": {
+    "@semantic-release/npm": "^7.0.10"
   }
 }
