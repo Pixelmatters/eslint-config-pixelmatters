@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Pixelmatters/eslint-config-pixelmatters/compare/v1.0.0...v1.0.1) (2021-02-08)
+
+
+### Bug Fixes
+
+* deploy workflow and fix dependencies ([7671d2d](https://github.com/Pixelmatters/eslint-config-pixelmatters/commit/7671d2d1de9e5a200108f4a580e86dfaf4db78be))
+
 # 1.0.0 (2020-08-19)
 
 
