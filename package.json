@@ -16,13 +16,10 @@
     "eslint-config",
     "eslint"
   ],
-
   "publishConfig": {
     "access": "public"
   },
-
   "main": "index.js",
-
   "dependencies": {
     "@typescript-eslint/parser": ">= 2.31.0",
     "eslint-config-prettier": ">= 6.10.0"
