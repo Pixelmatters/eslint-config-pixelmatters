@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Pixelmatters/eslint-config-pixelmatters/compare/v1.0.1...v1.0.2) (2021-03-25)
+
+
+### Bug Fixes
+
+* remove external config from prettier ([42389b4](https://github.com/Pixelmatters/eslint-config-pixelmatters/commit/42389b4b2390c0413cb590bbc1746e2a2bbd9d5c))
+
 ## [1.0.1](https://github.com/Pixelmatters/eslint-config-pixelmatters/compare/v1.0.0...v1.0.1) (2021-02-08)
 
 
