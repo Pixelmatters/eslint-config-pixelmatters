@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Pixelmatters/eslint-config-pixelmatters/compare/v1.0.2...v1.0.3) (2021-05-10)
+
+
+### Bug Fixes
+
+* bump dep versions to solve security issues ([#11](https://github.com/Pixelmatters/eslint-config-pixelmatters/issues/11)) ([930b592](https://github.com/Pixelmatters/eslint-config-pixelmatters/commit/930b59295f523c02ef828f56e0f8642791f614f4))
+
 ## [1.0.2](https://github.com/Pixelmatters/eslint-config-pixelmatters/compare/v1.0.1...v1.0.2) (2021-03-25)
 
 
