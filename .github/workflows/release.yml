@@ -1,9 +1,9 @@
-name: Semantic Releate NPM Package
+name: Semantic Release NPM Package
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   release:
