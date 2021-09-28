@@ -27,61 +27,35 @@ This is a ESLint config that you can use in your projects.
 
 ## 🚀 Get Up and Running
 
-You can install this package using either **npm** or **yarn**.
+You can install this package using your favorite package manager. This configuration assumes that you have **ESLint**, **Typescript** and **Prettier** already installed; if not, install the following additional dependencies.
 
-### **Yarn**
+```text
+typescript eslint prettier
+```
 
-If using Yarn:
+### Add the new dependencies
 
-1. Install the package as a development dependency:
+**If you are using pnpm:**
 
 ```shell
-yarn add @pixelmatters/eslint-config-pixelmatters --dev
+pnpm install -D @pixelmatters/eslint-config-pixelmatters @typescript-eslint/eslint-plugin eslint-plugin-prettier
 ```
 
-2. Add all the missing peer dependencies:
+**If you are using yarn:**
 
 ```shell
-yarn add @typescript-eslint/eslint-plugin eslint-plugin-prettier --dev
+yarn add -D @pixelmatters/eslint-config-pixelmatters @typescript-eslint/eslint-plugin eslint-plugin-prettier
 ```
 
-(This config assumes you have **ESLint**, **Typescript** and **Prettier** already installed; if not, run the following code: )
-
-``` shell
-yarn add typescript eslint prettier --dev
-```
-
-3. Create an `.eslintrc.js`  file in the root of your project and add the following code:
-
-``` js
-module.exports = {
-  extends: ['@pixelmatters/eslint-config-pixelmatters'],
-};
-```
-
-### **NPM**
-
-If using NPM:
-
-1. Install the package as a development dependency:
+**If you are using npm:**
 
 ```shell
-npm install @pixelmatters/eslint-config-pixelmatters --save-dev
+npm install --save-dev @pixelmatters/eslint-config-pixelmatters @typescript-eslint/eslint-plugin eslint-plugin-prettier
 ```
 
-2. Add all the missing peer dependencies:
+### Tell ESLint to use this config
 
-```shell
-npm install @typescript-eslint/eslint-plugin eslint-plugin-prettier --save-dev
-```
-
-(This config assumes you have **ESLint**, **Typescript** and **Prettier** already installed; if not, run the following code: )
-
-``` shell
-npm install typescript eslint prettier --save-dev
-```
-
-3. Create an `.eslintrc.js`  file in the root of your project and add the following code:
+Create an `.eslintrc.js`  file in the root of your project and add the following code:
 
 ``` js
 module.exports = {
