@@ -1,3 +1,11 @@
+<p align="center">
+    <img width="80" src="./img/pixelmatters-logo.jpeg" />
+</p>
+
+<p align="center">
+    <img src="./img/pixelmatters-name.svg" />
+</p>
+
 <h1 align="center">
   eslint-config-pixelmatters
 </h1>
